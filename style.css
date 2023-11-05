@@ -2,32 +2,32 @@ body, h1, h2, .text__section > p{
   margin: 0;
   padding: 0;
 }
-.container{
+/* .container{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-}
+  width: 100%; */
+/* } */
 header{
   width: 100%;
   display: flex;
-align-items: center;
+  /* align-items: center; */
   justify-content: space-around; 
   padding-top: 47px;
-  width: 80%;
+  /* width: 80%; */
 }
 #Logo{
 width: 114.912px;
 height: 33.994px;
 flex-shrink: 0; 
 }
-.nav-items{
+/* .nav-items{
   display: flex;
   flex-wrap: wrap; 
   align-items: center;
-  gap: 75px;
-
-}
+  /* gap: 75px; */
+ 
+/* } */
 .nav-items a{
 color:  #212832;
 font-family: Roboto;
@@ -65,9 +65,9 @@ line-height: normal;
 
 main {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 80%; */
 }
 
 .text__section{
@@ -126,7 +126,10 @@ text-transform: uppercase;
   position: relative;
   z-index: 1;
 }
-
+.lady{
+  width: 765px;
+  height: 764px;
+}
 .btn {
   background-color: #f1a501;
   box-shadow: 0px 20px 35px 0px #f1a50126;
@@ -166,7 +169,8 @@ text-transform: uppercase;
 .buttons {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 20px; 
+  /* width: 500px;  */
 }
 .buttons p{
   font-family: poppins;
